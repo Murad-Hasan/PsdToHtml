@@ -10,7 +10,7 @@ ul{
 }
 .header{
     width: 100%;
-    background-color: #6B6FFF;
+    background-color: rgba(97, 97, 207, 0.883);
 }
 .logo{
     vertical-align: middle;
@@ -33,5 +33,5 @@ ul{
     color: white;
     font-weight: 700;
     cursor: pointer;
+    position: relative;
 }
-
