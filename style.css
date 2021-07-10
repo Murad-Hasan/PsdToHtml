@@ -35,3 +35,7 @@ ul{
     cursor: pointer;
     position: relative;
 }
+.banner{
+    height: 100vh;
+    background-image: url("./Assest/header.jpg"), linear-gradient(#8627f3, #7957f3);
+}
