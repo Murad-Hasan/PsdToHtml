@@ -10,7 +10,9 @@ ul{
 }
 .header{
     width: 100%;
-    background-color: rgba(97, 97, 207, 0.883);
+    background-color: rgba(177, 95, 245, 0.89);
+    position: sticky;
+    top: 0;
 }
 .logo{
     vertical-align: middle;
@@ -35,7 +37,19 @@ ul{
     cursor: pointer;
     position: relative;
 }
-.banner{
+.hero-setion{
+    position: relative;
     height: 100vh;
-    background-image: url("./Assest/header.jpg"), linear-gradient(#8627f3, #7957f3);
+}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100vh;
+    background-image:linear-gradient(#8627f383, #6246c9be) , url("./Assest/header.jpg");
+}
+.about{
+    height: 500px;
 }
