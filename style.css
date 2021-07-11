@@ -37,9 +37,10 @@ ul{
     cursor: pointer;
     position: relative;
 }
-.hero-setion{
+.hero-section{
     position: relative;
-    height: 100vh;
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 85%);
 }
 .banner{
     position: absolute;
@@ -48,7 +49,8 @@ ul{
     right: 0;
     z-index: -1;
     height: 100vh;
-    background-image:linear-gradient(#8627f383, #6246c9be) , url("./Assest/header.jpg");
+    background-image: linear-gradient(to bottom, rgba(53, 56, 152, 0.9), rgba(40, 42, 85, 0.8), rgba(21, 27, 51, 0.8)) , url("./Assest/header.jpg");
+    /* background-image:linear-gradient(#8627f383, #6246c9be) , url("./Assest/header.jpg"); */
 }
 .about{
     height: 500px;
