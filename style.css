@@ -10,9 +10,10 @@ ul{
 }
 .header{
     width: 100%;
-    background-color: rgba(177, 95, 245, 0.89);
+    background-color: rgba(70, 74, 194, 0.938);
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 .logo{
     vertical-align: middle;
@@ -23,6 +24,10 @@ ul{
     display: grid;
     grid-template-columns: 400px 1fr;
     align-items: center;
+}
+.fixed-container{
+    max-width: 1200px;
+    margin: 0px auto;
 }
 .menu-list{
     display: flex;
@@ -35,7 +40,6 @@ ul{
     color: white;
     font-weight: 700;
     cursor: pointer;
-    position: relative;
 }
 .hero-section{
     position: relative;
@@ -50,8 +54,45 @@ ul{
     z-index: -1;
     height: 100vh;
     background-image: linear-gradient(to bottom, rgba(53, 56, 152, 0.9), rgba(40, 42, 85, 0.8), rgba(21, 27, 51, 0.8)) , url("./Assest/header.jpg");
-    /* background-image:linear-gradient(#8627f383, #6246c9be) , url("./Assest/header.jpg"); */
 }
-.about{
-    height: 500px;
+.text-content{
+   height: 90vh;
+   text-align: center;
+   display: grid;
+   place-items: center;
+}
+.wrapper > h2 {
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.wrapper > h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #e5e5e5;
+    font-weight: 400;
+    line-height: 28px;
+}
+.wrapper > button {
+    background-color: #6B6FFF;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 25px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.wrapper > button:hover {
+    background-color: #ffffff;
+    color: #6B6FFF;
 }
