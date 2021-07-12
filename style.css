@@ -10,7 +10,7 @@ ul{
 }
 .header{
     width: 100%;
-    background-color: rgba(70, 74, 194, 0.938);
+    background-image: linear-gradient(to top, rgba(63, 66, 134, 0.9), rgba(114, 120, 235, 0.8));
     position: sticky;
     top: 0;
     z-index: 99;
@@ -189,4 +189,5 @@ ul{
 .section-button a:hover{
     background-color: white;
     color: #6B6FFF;
+    border: 1px solid #6B6FFF;
 }
