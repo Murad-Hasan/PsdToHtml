@@ -44,7 +44,6 @@ ul{
 .menu-list > li:hover{
     transition: all 0.3s ease;
     color:rgb(177, 170, 170);
-    
 }
 .hero-section{
     position: relative;
